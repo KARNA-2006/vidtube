@@ -7,6 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"  
+    />
 </head>
 
 <body>
@@ -17,28 +26,122 @@
             <h3>VidTube</h3>
         </div>
         <div class="search"><input type="text" id="input" name="search" placeholder="Search"></div>
-        <div class="glass"></div>
-        <div class="mic"><img src="https://i.pinimg.com/736x/aa/1a/07/aa1a07c3627b591454a5c2590805292c.jpg"></div>
-        <div class="video"><img src="vid.png"></div>
+        <div class="glass"><img src="search-icon.svg" alt="search" class="search-icon"></div>
+        <div class="mic"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+        <div class="video"></div>
         <div class="notify"><i class="fa-solid fa-bell bell"></i></div>
-        <div class="profile"></div>
+        <div class="profile"><span>S</span></div>
     </nav>
-    <section class="main"></section>
-        <section class="menu-bar">
-            <div class="home"><i class="fa-solid fa-house house"></i>Home</div>
-            <div class="subscriptions"></div>
-            <div class="shorts"></div>
-            <div class="upload"></div>
-            <div class="history"></div>
-        </section>
-        <section class="channels">
-            <div><img class="card" src="Shradha.jpg"></div>
-            <div><img class="card" src="Sisters.jpg"></div>
-            <div><img class="card" src="jigra.jpg"></div>
-            <div><img class="card" src="Dharavi.jpg"></div>
-
-        </section>
+    <div class="btns">
+        <button class="suggestion">All</button>
+        <button class="suggestion">News</button>
+        <button class="suggestion">Live</button>
+        <button class="suggestion">Music</button>
+        <button class="suggestion">Movie Musicals</button>
+        <button class="suggestion">Pokemon</button>
+        <button class="suggestion">Shinchan</button>
+        <button class="suggestion">Ajay Devgan</button>
+        <button class="suggestion">Dramedy</button>
+        <button class="suggestion">Mixes</button>
+        <button class="suggestion">Recently Uploaded</button>
+        <button class="suggestion">Watched</button>
+    </div>
+    <section class="menu-bar">
+        <div class="home"><i class="fa fa-home" aria-hidden="true"></i>
+            <p>Home</p>
+        </div>
+        <div class="shorts"><img src="youtube-shorts.svg" class="shorts-icon">
+            <p>Shorts</p>
+        </div>
+        <div class="subscription"><img src="subscriprion.png" class="sub-icon">
+            <p>Subscriptions</p>
+        </div>
+        <div class="you"><img src="account_circle.svg" class="you-icon">
+            <p>You</p>
+        </div>
     </section>
+
+    <div class="vid-list">
+        <div class="vid1">
+            <div class="thumbnail">
+                <img src="Pokemon.png">
+            </div>
+            <div class="vid-info1">
+                <div>
+                    <img class="publisher" src="cameron.png">
+                    <h5><b>Pokemon Ep:47</b></h5>
+                </div>
+                <p>Miss imperfect</p>
+                <p>15k Views <span>&#x2022;2 days ago</span></p>
+            </div>
+        </div>
+        <div class="vid1">
+            <div class="thumbnail">
+                <img src="Dharavi.jpg">
+            </div>
+            <div class="vid-info1">
+                <div>
+                    <img class="publisher" src="cameron.png">
+                    <h5><b>Dharavi: The slum</b></h5>
+                </div>
+                <p>Miss imperfect</p>
+                <p>15k Views <span>&#x2022;2 days ago</span></p>
+            </div>
+        </div>
+        <div class="vid1">
+            <div class="thumbnail">
+                <img src="jigra.jpg">
+            </div>
+            <div class="vid-info1">
+                <div>
+                        <img class="publisher" src="cameron.png">
+                        <h5><b>Official trailer of jigra</b></h5>
+                    </div>
+                    <p>Miss imperfect</p>
+                    <p>15k Views <span>&#x2022;2 days ago</span></p>
+                </div>
+            </div>
+            <div class="vid1">
+                <div class="thumbnail">
+                    <img src="Shradha.jpg">
+                </div>
+                <div class="vid-info1">
+                    <div>
+                        <img class="publisher" src="cameron.png">
+                        <h5><b>Official trailer of jigra</b></h5>
+                    </div>
+                    <p>Miss imperfect</p>
+                    <p>15k Views <span>&#x2022;2 days ago</span></p>
+                </div>
+            </div>
+            <div class="vid1">
+                <div class="thumbnail">
+                    <img src="Sisters.jpg">
+                </div>
+                <div class="vid-info1">
+                    <div>
+                        <img class="publisher" src="cameron.png">
+                        <h5><b>Official trailer of jigra</b></h5>
+                    </div>
+                    <p>Miss imperfect</p>
+                    <p>15k Views <span>&#x2022;2 days ago</span></p>
+                </div>
+            </div>
+            <div class="vid1">
+                <div class="thumbnail">
+                    <img src="Node.png">
+                </div>
+                <div class="vid-info1">
+                    <div>
+                        <img class="publisher" src="cameron.png">
+                        <h5><b>Official trailer of jigra</b></h5>
+                    </div>
+                    <p>Miss imperfect</p>
+                    <p>15k Views <span>&#x2022;2 days ago</span></p>
+                </div>
+            </div>
+
+            </section>
 </body>
 
 </html>
