@@ -25,6 +25,7 @@ nav{
     color: grey;
     font-size: 25px;
     margin-left: 28px;
+    cursor: pointer;
 }
 
 img {
@@ -118,6 +119,16 @@ button {
     margin-top: 20px;
     margin-left: 9px;
     font-size: 15px;
+}
+.dropdown{
+    background: transparent;
+    padding-left: 3.5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.dropdown option{
+    width: 300px;
 }
 .menu-bar{
     display:block;
@@ -250,4 +261,65 @@ button {
     outline: none;
     border: 0;
     
+}
+.overlay{
+    height: 200vh;
+    width: 100%;
+    background-color: #00000089;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    transition: left 1s ease-in-out;
+}
+.main-container{
+    position: relative;
+}
+.full-bar{
+    height: 100vh;
+    width: 20%;
+    background-color: white;
+    position: fixed;
+}
+.upper_most{
+    display: flex;
+    align-items: center;
+}
+.show{
+    display: block;
+}
+.menuBar{
+    color: grey;
+    font-size: 25px;
+    margin-left: 38px;
+    cursor: pointer;
+}
+.menu ul{
+    list-style-type: none;
+}
+.H, .Sh{
+    margin-left: -3px;
+}
+.History, .Yvid, .Wltr, .Lvid{
+    margin-top: 15px;
+}
+.History i,.Yvid i,.Wltr i,.Lvid i{
+    font-size: 23px;
+}
+.History a,.Yvid a,.Wltr a,.Lvid a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.H a, .Sh a{
+    text-decoration: none;
+    color: black;
+    /* margin-left: 20px; */
+}
+.H a{
+    margin-left: 22px;
+}
+.Sh a{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 0;
 }

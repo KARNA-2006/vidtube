@@ -12,55 +12,106 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"  
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 
 <body>
-    <nav>
-        <div class="menu"><i class="fa-solid fa-bars bar"></i></div>
-        <div class="logo"><img src="https://th.bing.com/th/id/OIP.z4ejyN7gKWRpAJyUVQrpiAHaHa?rs=1&pid=ImgDetMain"></div>
-        <div class="vid">
-            <h3>VidTube</h3>
+    <div class="overlay">
+        <div class="full-bar">
+            <div class="main_box">
+                <div class="upper_most">
+                    <div class="btn_one">
+                        <i class="fa-solid fa-bars menuBar"></i>
+                    </div>
+              
+                    <div class="logo upper"><img src="https://th.bing.com/th/id/OIP.z4ejyN7gKWRpAJyUVQrpiAHaHa?rs=1&pid=ImgDetMain"></div>
+                    <div class="vid upper">
+                        <h3>VidTube</h3>
+                    </div>
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li class="H">
+                      <i class="fa fa-home H"></i>
+                      <a href="#">Home</a>
+                    </li>
+                    <li class="Sh">
+                      <img src="youtube-shorts.svg" class="shorts-icon Sh">
+                      <a href="#">Shorts</a>
+                    </li>
+                    <li class="History">
+                      <i class="fa-solid fa-clock-rotate-left "></i>
+                      <a href="#">History</a>
+                    </li>
+                    <li class="Yvid">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <a href="#">Your videos</a>
+                    </li>
+                    <li class=" Wltr">
+                      <i class="fa-regular fa-clock"></i>
+                      <a href="#">Watch Later</a>
+                    </li>
+                    <li class="Lvid">
+                      <i class="fa-regular fa-thumbs-up"></i>
+                      <a href="#">Liked Videos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="search"><input type="text" id="input" name="search" placeholder="Search"></div>
-        <div class="glass"><img src="search-icon.svg" alt="search" class="search-icon"></div>
-        <div class="mic"><i class="fa fa-microphone" aria-hidden="true"></i></div>
-        <div class="video" alt="Video"></div>
-        <div class="notify"><i class="fa-solid fa-bell bell"></i></div>
-        <div class="profile"><span>S</span></div>
-    </nav>
-    <div class="btns">
-        <button class="suggestion">All</button>
-        <button class="suggestion">News</button>
-        <button class="suggestion">Live</button>
-        <button class="suggestion">Music</button>
-        <button class="suggestion">Movie Musicals</button>
-        <button class="suggestion">Pokemon</button>
-        <button class="suggestion">Shinchan</button>
-        <button class="suggestion">Ajay Devgan</button>
-        <button class="suggestion">Dramedy</button>
-        <button class="suggestion">Mixes</button>
-        <button class="suggestion">Recently Uploaded</button>
-        <button class="suggestion">Watched</button>
     </div>
-    <section class="menu-bar">
-        <div class="home"><i class="fa fa-home" aria-hidden="true"></i>
-            <p>Home</p>
+    <div class="main-container">
+        <nav>
+            <div class="menu"><i class="fa-solid fa-bars bar"></i></div>
+            <div class="logo"><img src="https://th.bing.com/th/id/OIP.z4ejyN7gKWRpAJyUVQrpiAHaHa?rs=1&pid=ImgDetMain"></div>
+            <div class="vid">
+                <h3>VidTube</h3>
+            </div>
+            <div class="search"><input type="text" id="input" name="search" placeholder="Search"></div>
+            <div class="glass"><img src="search-icon.svg" alt="search" class="search-icon"></div>
+            <div class="mic"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+            <div class="video" alt="Video"></div>
+            <div class="notify"><i class="fa-solid fa-bell bell"></i></div>
+            <div class="profile">
+                <select class="dropdown">
+                    <option value="S" class="S" selected>S</option>
+                    <option value="gacc." class="Gacc">Google Account</option>
+                    <option value="Swacc" class="Swacc">Switch Account</option>
+                    <option value="Sout" class="Sout">Sign Out</option>
+                </select>
+            </div>
+        </nav>
+        <div class="btns">
+            <button class="suggestion">All</button>
+            <button class="suggestion">News</button>
+            <button class="suggestion">Live</button>
+            <button class="suggestion">Music</button>
+            <button class="suggestion">Movie Musicals</button>
+            <button class="suggestion">Pokemon</button>
+            <button class="suggestion">Shinchan</button>
+            <button class="suggestion">Ajay Devgan</button>
+            <button class="suggestion">Dramedy</button>
+            <button class="suggestion">Mixes</button>
+            <button class="suggestion">Recently Uploaded</button>
+            <button class="suggestion">Watched</button>
         </div>
-        <div class="shorts"><img src="youtube-shorts.svg" class="shorts-icon">
-            <p>Shorts</p>
-        </div>
-        <div class="subscription"><img src="subscriprion.png" class="sub-icon">
-            <p>Subscriptions</p>
-        </div>
-        <div class="you"><img src="account_circle.svg" class="you-icon">
-            <p>You</p>
-        </div>
-    </section>
-
+        <section class="menu-bar">
+            
+            <div class="home"><i class="fa fa-home" aria-hidden="true"></i>
+                <p>Home</p>
+            </div>
+            <div class="shorts"><img src="youtube-shorts.svg" class="shorts-icon">
+                <p>Shorts</p>
+            </div>
+            <div class="subscription"><img src="subscriprion.png" class="sub-icon">
+                <p>Subscriptions</p>
+            </div>
+            <div class="you"><img src="account_circle.svg" class="you-icon">
+                <p>You</p>
+            </div>
+        </section>
+    
     <div class="vid-list">
         <div class="vid1">
             <div class="thumbnail">
@@ -94,70 +145,67 @@
             </div>
             <div class="vid-info1">
                 <div>
-                        <img class="publisher" src="cameron.png">
-                        <h5><b>Official trailer of jigra</b></h5>
-                    </div>
-                    <p>Miss imperfect</p>
-                    <p>15k Views <span>&#x2022;2 days ago</span></p>
+                    <img class="publisher" src="cameron.png">
+                    <h5><b>Official trailer of jigra</b></h5>
                 </div>
+                <p>Miss imperfect</p>
+                <p>15k Views <span>&#x2022;2 days ago</span></p>
             </div>
-            <div class="vid1">
-                <div class="thumbnail">
-                    <img src="Shradha.jpg">
-                </div>
-                <div class="vid-info1">
-                    <div>
-                        <img class="publisher" src="cameron.png">
-                        <h5><b>Official trailer of jigra</b></h5>
-                    </div>
-                    <p>Miss imperfect</p>
-                    <p>15k Views <span>&#x2022;2 days ago</span></p>
-                </div>
+        </div>
+        <div class="vid1">
+            <div class="thumbnail">
+                <img src="Shradha.jpg">
             </div>
-            <div class="vid1">
-                <div class="thumbnail">
-                    <img src="Sisters.jpg">
+            <div class="vid-info1">
+                <div>
+                    <img class="publisher" src="cameron.png">
+                    <h5><b>Official trailer of jigra</b></h5>
                 </div>
-                <div class="vid-info1">
-                    <div>
-                        <img class="publisher" src="cameron.png">
-                        <h5><b>Official trailer of jigra</b></h5>
-                    </div>
-                    <p>Miss imperfect</p>
-                    <p>15k Views <span>&#x2022;2 days ago</span></p>
-                </div>
+                <p>Miss imperfect</p>
+                <p>15k Views <span>&#x2022;2 days ago</span></p>
             </div>
-            <div class="vid1">
-                <div class="thumbnail">
-                    <img src="Node.png">
-                </div>
-                <div class="vid-info1">
-                    <div>
-                        <img class="publisher" src="cameron.png">
-                        <h5><b>Official trailer of jigra</b></h5>
-                    </div>
-                    <p>Miss imperfect</p>
-                    <p>15k Views <span>&#x2022;2 days ago</span></p>
-                </div>
+        </div>
+        <div class="vid1">
+            <div class="thumbnail">
+                <img src="Sisters.jpg">
             </div>
-
-            </section>
+            <div class="vid-info1">
+                <div>
+                    <img class="publisher" src="cameron.png">
+                    <h5><b>Official trailer of jigra</b></h5>
+                </div>
+                <p>Miss imperfect</p>
+                <p>15k Views <span>&#x2022;2 days ago</span></p>
+            </div>
+        </div>
+        <div class="vid1">
+            <div class="thumbnail">
+                <img src="Node.png">
+            </div>
+            <div class="vid-info1">
+                <div>
+                    <img class="publisher" src="cameron.png">
+                    <h5><b>Official trailer of jigra</b></h5>
+                </div>
+                <p>Miss imperfect</p>
+                <p>15k Views <span>&#x2022;2 days ago</span></p>
+            </div>
+        </div>
     
-    <section class="main">
-        <section class="menu-bar">
-            <div class="home"><i class="fa-solid fa-house house"></i> Home</div>
-            <div class="subscriptions"></div>
-            <div class="shorts"></div>
-            <div class="upload"></div>
-            <div class="history"></div>
         </section>
-        <section class="channels">
-            <div><img class="card" src="Shradha.jpg" alt="Shradha"></div>
-            <div><img class="card" src="Sisters.jpg" alt="Sisters"></div>
-            <div><img class="card" src="jigra.jpg" alt="Jigra"></div>
-            <div><img class="card" src="Dharavi.jpg" alt="Dharavi"></div>
+    
+        <!-- <section class="main">
+            <section class="menu-bar">
+                <div class="home"><i class="fa-solid fa-house house"></i> Home</div>
+                <div class="subscriptions"></div>
+                <div class="shorts"></div>
+                <div class="upload"></div>
+                <div class="history"></div>
+            </section> -->
+            
         </section>
-    </section>
-</body>
+    </div>
+    <script src="app.js"></script>
+    </body>
 
-</html>
+    </html>
